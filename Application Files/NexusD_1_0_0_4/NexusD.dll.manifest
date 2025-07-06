@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="NexusD.exe" version="1.0.0.3" publicKeyToken="0e7dc187d62d9b6e" language="neutral" processorArchitecture="msil" type="win32" />
+  <asmv1:assemblyIdentity name="NexusD.exe" version="1.0.0.4" publicKeyToken="0e7dc187d62d9b6e" language="neutral" processorArchitecture="msil" type="win32" />
   <description asmv2:iconFile="nexus d logo.ico" asmv2:publisher="Zulkifal Ayaz" co.v1:suiteName="Biosoft Solutions" asmv2:product="NexusD" asmv2:supportUrl="https://zulkifalayaz.github.io/ZulkifalAyaz/" co.v1:errorReportUrl="https://zulkifalayaz.github.io/ZulkifalAyaz/" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
@@ -334,13 +334,13 @@
       <dsig:DigestValue>RZI6S5jJplFUF0zdR4OC3pnxrRSnZAQcc46PhxqX5Sc=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="NexusD.dll" size="3695632">
+  <file name="NexusD.dll" size="3769360">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>eWEv7tQ21hyhd2398hxsUjYFjQP95fpSkl71blAFhHg=</dsig:DigestValue>
+      <dsig:DigestValue>3u9jIUmsLNXSwMGKtimqBZzW6HnjePPdGcJmuTRv7Ek=</dsig:DigestValue>
     </hash>
   </file>
   <file name="NexusD.dll.config" size="1459">
@@ -358,7 +358,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>52Nql7dUz6fc+rg8y5uj7xXgxfJqQoc46bKR6Mo44mo=</dsig:DigestValue>
+      <dsig:DigestValue>wkTb/Q+x8wi7Wgmnhd948XoTrsfr8UxVdaDJ/U0lmwM=</dsig:DigestValue>
     </hash>
   </file>
   <file name="NexusD.runtimeconfig.json" size="515">
@@ -604,6 +604,15 @@
       <dsig:DigestValue>ENr+jgyVFlpUNc+r9VLZBbvOljYGE5O0yyUz8k2Iq0U=</dsig:DigestValue>
     </hash>
   </file>
+  <file name="version.txt" size="7">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>gICwwo3VWr5QLoBq1TPa3xogWu0oVi4n/hFlvyJP4aU=</dsig:DigestValue>
+    </hash>
+  </file>
   <file name="x64\pdfium.dll" size="15807488">
     <hash>
       <dsig:Transforms>
@@ -631,4 +640,4 @@
       <dsig:DigestValue>9dFzMgdoz7BW5DkN/dGxDgOP58ur1e+qm5FiQpVmi6I=</dsig:DigestValue>
     </hash>
   </file>
-<publisherIdentity name="CN=DESKTOP-GQ833BV\Zulkifal Ayaz" issuerKeyHash="85ee9b69ba63fe5613bd617aef068a1ff8aa44d4" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>yqWnFYhTQ6AfQq5iJxBPDYJC3RRWstASyzvS/ibIAbk=</DigestValue></Reference></SignedInfo><SignatureValue>r2w0cFAU/HMLhFAUyGmItLXCABHp4kE+Qajg8ZIFbcEA58uvYqfpg2qdZJ0E+iiaIAqfSVn+jP9w78g2gLLq5Eu/CJDXILtZR2rKiHq/cjrKg/tygtnAPOGFSiG/effamY6nhLpLbysRmsRwlrKbYS8zoGe48Oh8QLLr1SPlOZ4=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>us2ff2OVf+02fQZ19ylGn2sL2mSOpU3qJr9vjUyFjCmbTtGV1SFT2vtrSEm4x+d1lHTKn+/aW2D1iKqg3xqg1iajK0T21Ps+uuwa8bRpxgZPTmtKpAp0jicFAocbhNPzUCmD3ZFaAVHabvaglYaEAn0+W3oRooiNsHtEBS2nEN0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="b901c826fed23bcb12d0b25614dd42820d4f102762ae421fa043538815a7a5ca" Description="" Url=""><as:assemblyIdentity name="NexusD.exe" version="1.0.0.3" publicKeyToken="0e7dc187d62d9b6e" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-GQ833BV\Zulkifal Ayaz</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>pz1/Qzn5YAhA023XyZJJgLMXRARgILEZ+lVIdNa9N9s=</DigestValue></Reference></SignedInfo><SignatureValue>XFDYWQnxH8tyzEly9r8VcK/no27G5LLzsR1pOBVfcYfqPmoe0rLgsQBKuJ1s6yafY0a5yLe9sDcVzwvTgE5HkzylVj/5ENLIW55hTUk2Svb3BKZQNaDn0iLKhdC9+QC3woqrI5ltqhI/MJQB9y5Uhv6zvY+5y9wFNpI5K5nIm7Q=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>us2ff2OVf+02fQZ19ylGn2sL2mSOpU3qJr9vjUyFjCmbTtGV1SFT2vtrSEm4x+d1lHTKn+/aW2D1iKqg3xqg1iajK0T21Ps+uuwa8bRpxgZPTmtKpAp0jicFAocbhNPzUCmD3ZFaAVHabvaglYaEAn0+W3oRooiNsHtEBS2nEN0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICDTCCAXagAwIBAgIQPB6ioWgnCZtEkBoaU5ICVTANBgkqhkiG9w0BAQsFADBFMUMwQQYDVQQDHjoARABFAFMASwBUAE8AUAAtAEcAUQA4ADMAMwBCAFYAXABaAHUAbABrAGkAZgBhAGwAIABBAHkAYQB6MB4XDTI1MDcwNjEyMjY0N1oXDTI2MDcwNjE4MjY0N1owRTFDMEEGA1UEAx46AEQARQBTAEsAVABPAFAALQBHAFEAOAAzADMAQgBWAFwAWgB1AGwAawBpAGYAYQBsACAAQQB5AGEAejCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAus2ff2OVf+02fQZ19ylGn2sL2mSOpU3qJr9vjUyFjCmbTtGV1SFT2vtrSEm4x+d1lHTKn+/aW2D1iKqg3xqg1iajK0T21Ps+uuwa8bRpxgZPTmtKpAp0jicFAocbhNPzUCmD3ZFaAVHabvaglYaEAn0+W3oRooiNsHtEBS2nEN0CAwEAATANBgkqhkiG9w0BAQsFAAOBgQBT1ZnLeBnZ54ukgkXOGhrngQkHCxqMoXb0Hk0wO2pP//XZBHSS1q9McSNC8yKfdGSoTUfrVLLUXG0J9549ddZbKzYqNJsgRDp4EC7mc8MoshwulWskfId0/Ox8QpwWEzUYuDCGrxCLg1qpN8KUz154sAwepPkykQnPFzpc6KbhsQ==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
+<publisherIdentity name="CN=DESKTOP-GQ833BV\Zulkifal Ayaz" issuerKeyHash="85ee9b69ba63fe5613bd617aef068a1ff8aa44d4" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>N55LKmzxBqx0Gk/jD+ugYda8TvGvV78h0ZA7DP+kbtk=</DigestValue></Reference></SignedInfo><SignatureValue>Uqe81WvsWO6L1Ho5A+F8H2m/FWLrog708ue07mlvBOepQrzpIXWprmLSlq8bf+vfgjsOvyMC2UB2UDY558/qZdscrn2qbcHJylrNTX+AV293XmONjorGTON/j+Q7VQLMupO9HricnyBJBy6ttCGZMy8hLlRGjL5qVwE206PWbrA=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>us2ff2OVf+02fQZ19ylGn2sL2mSOpU3qJr9vjUyFjCmbTtGV1SFT2vtrSEm4x+d1lHTKn+/aW2D1iKqg3xqg1iajK0T21Ps+uuwa8bRpxgZPTmtKpAp0jicFAocbhNPzUCmD3ZFaAVHabvaglYaEAn0+W3oRooiNsHtEBS2nEN0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="d96ea4ff0c3b90d121bf57aff14ebcd661a0eb0fe34f1a74ac06f16c2a4b9e37" Description="" Url=""><as:assemblyIdentity name="NexusD.exe" version="1.0.0.4" publicKeyToken="0e7dc187d62d9b6e" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-GQ833BV\Zulkifal Ayaz</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>RxM+jS0wnHBKHIxtisiQ+FMsz2mQWOM/xCgv+2bNYUI=</DigestValue></Reference></SignedInfo><SignatureValue>hJv/3QbrLMRh8+V0sUeCrolPfWlvRA1gwj4C+8kXRw2Y+rJtDWAOOfvBlgwmYu1o7drpsXX0X1amUCeFhM16ZcXmaovdLyplIG7DCK+XkhI+YrLSF8+1XGpenP5YpQ+pEQfPBgDAhk8CO05qsDNcQG8HHuSJsLunmGjHWP7fRtE=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>us2ff2OVf+02fQZ19ylGn2sL2mSOpU3qJr9vjUyFjCmbTtGV1SFT2vtrSEm4x+d1lHTKn+/aW2D1iKqg3xqg1iajK0T21Ps+uuwa8bRpxgZPTmtKpAp0jicFAocbhNPzUCmD3ZFaAVHabvaglYaEAn0+W3oRooiNsHtEBS2nEN0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICDTCCAXagAwIBAgIQPB6ioWgnCZtEkBoaU5ICVTANBgkqhkiG9w0BAQsFADBFMUMwQQYDVQQDHjoARABFAFMASwBUAE8AUAAtAEcAUQA4ADMAMwBCAFYAXABaAHUAbABrAGkAZgBhAGwAIABBAHkAYQB6MB4XDTI1MDcwNjEyMjY0N1oXDTI2MDcwNjE4MjY0N1owRTFDMEEGA1UEAx46AEQARQBTAEsAVABPAFAALQBHAFEAOAAzADMAQgBWAFwAWgB1AGwAawBpAGYAYQBsACAAQQB5AGEAejCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAus2ff2OVf+02fQZ19ylGn2sL2mSOpU3qJr9vjUyFjCmbTtGV1SFT2vtrSEm4x+d1lHTKn+/aW2D1iKqg3xqg1iajK0T21Ps+uuwa8bRpxgZPTmtKpAp0jicFAocbhNPzUCmD3ZFaAVHabvaglYaEAn0+W3oRooiNsHtEBS2nEN0CAwEAATANBgkqhkiG9w0BAQsFAAOBgQBT1ZnLeBnZ54ukgkXOGhrngQkHCxqMoXb0Hk0wO2pP//XZBHSS1q9McSNC8yKfdGSoTUfrVLLUXG0J9549ddZbKzYqNJsgRDp4EC7mc8MoshwulWskfId0/Ox8QpwWEzUYuDCGrxCLg1qpN8KUz154sAwepPkykQnPFzpc6KbhsQ==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
